@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6427870841118650955}
   - component: {fileID: 8877181925983691053}
+  - component: {fileID: 365034177}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -45,6 +46,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starCost: 100
+--- !u!114 &365034177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324682758925081065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b402e8c408f12144ab622c1461d7d1be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 5957964597206141232, guid: cd81a7d7de079a943a241a067348c578,
+    type: 3}
+  gun: {fileID: 8421139048581061979}
 --- !u!1 &8421139048567846862
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,7 +72,6 @@ GameObject:
   - component: {fileID: 8421139048567846858}
   - component: {fileID: 8421139048567846857}
   - component: {fileID: 8421139048567846856}
-  - component: {fileID: 8421139048567846863}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -148,21 +163,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8421139048567846863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421139048567846862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b402e8c408f12144ab622c1461d7d1be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectile: {fileID: 5957964597206141232, guid: cd81a7d7de079a943a241a067348c578,
-    type: 3}
-  gun: {fileID: 8421139048581061979}
 --- !u!1 &8421139048581061979
 GameObject:
   m_ObjectHideFlags: 0
