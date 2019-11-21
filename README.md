@@ -10,7 +10,7 @@ Vidoe of current progress: https://youtu.be/Wx7JyxzuQpI
 
 Nearly all assets from a defunct game called Glitch (https://www.glitchthegame.com/) that made all its assets Creative Commons CC0 1.0 Universal Public Domain Dedication.
 
-# What I've done since finishing this section of the calss
+# What I've done since finishing this section of the class
 
 Nothing yet, haven't finished
 
