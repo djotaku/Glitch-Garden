@@ -2,7 +2,7 @@ Glitch Garden
 
 A Plants vs Zombies Clone from a 2D Unity class I'm taking.
 
-Vidoe of current progress: https://youtu.be/rFOaMZgSiVE
+Vidoe of current progress: https://youtu.be/Wx7JyxzuQpI
 
 # Visual and Audio Credits
 
