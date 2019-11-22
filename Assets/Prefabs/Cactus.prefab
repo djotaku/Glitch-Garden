@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6427870841118650955}
   - component: {fileID: 8877181925983691053}
   - component: {fileID: 365034177}
+  - component: {fileID: 7827657512933736433}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -61,6 +62,25 @@ MonoBehaviour:
   projectile: {fileID: 5957964597206141232, guid: cd81a7d7de079a943a241a067348c578,
     type: 3}
   gun: {fileID: 8421139048581061979}
+--- !u!95 &7827657512933736433
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324682758925081065}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 04e0dab55a3999e49bb667e63e3e6dca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8421139048567846862
 GameObject:
   m_ObjectHideFlags: 0
@@ -71,7 +91,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8421139048567846858}
   - component: {fileID: 8421139048567846857}
-  - component: {fileID: 8421139048567846856}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -144,25 +163,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &8421139048567846856
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421139048567846862}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 04e0dab55a3999e49bb667e63e3e6dca, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8421139048581061979
 GameObject:
   m_ObjectHideFlags: 0

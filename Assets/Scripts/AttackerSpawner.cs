@@ -25,10 +25,4 @@ public class AttackerSpawner : MonoBehaviour
             transform.position, transform.rotation) as Attacker;
         newAttacker.transform.parent = transform; // makes the Spawner be its parent
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
