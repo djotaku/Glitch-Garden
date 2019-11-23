@@ -231,7 +231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b30bff147bf1b644b62ddf878634085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defenderPrefab: {fileID: 0}
+  defenderPrefab: {fileID: 2930414968630417287, guid: 51a9b56f709c9d44a93c69a91589836a,
+    type: 3}
 --- !u!61 &184049614
 BoxCollider2D:
   m_ObjectHideFlags: 0
