@@ -4,7 +4,7 @@ A Plants vs Zombies Clone from a 2D Unity class I'm taking.
 
 ![Screenshot](https://github.com/djotaku/Glitch-Garden/blob/master/Assets/screenshots/20191120.png)
 
-Vidoe of current progress: https://youtu.be/Wx7JyxzuQpI
+Vidoe of current progress: https://youtu.be/enoEIMBPKCs
 
 # Visual and Audio Credits
 
