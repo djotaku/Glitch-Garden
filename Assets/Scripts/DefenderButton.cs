@@ -22,7 +22,12 @@ public class DefenderButton : MonoBehaviour
         }
         else
         {
-            costText.text = defenderPrefab.GetStarCost().ToString();
+
+
+
+
+
+   
         }
     }
 
