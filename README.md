@@ -33,5 +33,5 @@ Nothing yet, haven't finished
 - Calculating a Safe zone when dealing with different aspect ratios. So if you want to have a safe zone for 4:3 when you want to support 16:9: ratio as a decimal. 16/9 = 1.77. 4/3=1.33333 So you take 1080*1.3333 to get the horizontal pixels. That gives you: 1440. So need 1920-1440 horizontal pixels (480) or 240 pixels on either end.
 - How to have background in the UI instead of camera like we did in the other games
 - Parent transforms are relative to the world while child transforms are relative to the parent. Location (0,0) for the child is on top of the parent - wherever it is in the world
-- Using “Player Prefs” to save User Settings - easily hacked, so don't put critical info or player unlocks there.
+- Using "Player Prefs" to save User Settings - easily hacked, so don't put critical info or player unlocks there.
 - Tips for Tuning and Desgining Level Progression
