@@ -1,6 +1,8 @@
 Glitch Garden
 
-A Plants vs Zombies Clone from a 2D Unity class I'm taking.
+*Note: I will be archiving this repo on Github. I doubt I'll do any more coding on this project, but if I do, it'll be at http://code.ericmesa.com/djotaku/Glitch-Garden*
+
+A Plants vs Zombies Clone from an older versoin of this [2D Unity class](https://gamedev.tv/courses/unity6-complete-2d).
 
 ![Screenshot](https://github.com/djotaku/Glitch-Garden/blob/master/Assets/screenshots/20191120.png)
 
@@ -10,7 +12,7 @@ Video of Glitch Garden: https://youtu.be/eaK9t-BB-Ig
 
 I know there are some bugs in the code at the moment, but nothing that keeps it from being playable. Mostly there seems to be one bug where it doesn't stop things when a win or lose happens (like it's suposed to) and one bug where losing both says you lost and you won on the screen.
 
-To play on the web: http://server.ericsbinaryworld.com/WebGL/GlitchGardenWebGL/
+To play on the web: (need to look for this in my backups) 
 
 To play on Windows or Linux, go to releases to get the binaries.
 
