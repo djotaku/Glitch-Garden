@@ -4,7 +4,7 @@ Glitch Garden
 
 A Plants vs Zombies Clone from an older versoin of this [2D Unity class](https://gamedev.tv/courses/unity6-complete-2d).
 
-![Screenshot](https://github.com/djotaku/Glitch-Garden/blob/master/Assets/screenshots/20191120.png)
+![Screenshot](https://github.com/djotaku/Glitch-Garden/raw/master/Assets/screenshots/20191120.png)
 
 Video of Plants vs Zombies: https://youtu.be/H79ZjVVa4AU
 
@@ -29,7 +29,7 @@ Nothing yet, haven't finished
 - Sprite Sheet Animation
 - Bone Based Animation - just a mention - all the animation for this game was Sprite-Sheet based
 - Different scenes can have different Canvas Scaler Options
-- Use anchors on things like text and buttons if you want to allow things to scale with ìshrinkî (which doesn't create ìblack barsî if the aspect ratio is changed.
+- Use anchors on things like text and buttons if you want to allow things to scale with ‚Äúshrink‚Äù (which doesn't create ‚Äúblack bars‚Äù if the aspect ratio is changed.
 - Calculating a Safe zone when dealing with different aspect ratios. So if you want to have a safe zone for 4:3 when you want to support 16:9: ratio as a decimal. 16/9 = 1.77. 4/3=1.33333 So you take 1080*1.3333 to get the horizontal pixels. That gives you: 1440. So need 1920-1440 horizontal pixels (480) or 240 pixels on either end.
 - How to have background in the UI instead of camera like we did in the other games
 - Parent transforms are relative to the world while child transforms are relative to the parent. Location (0,0) for the child is on top of the parent - wherever it is in the world
